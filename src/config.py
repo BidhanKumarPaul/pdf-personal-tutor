@@ -15,7 +15,8 @@ CHUNK_OVERLAP_WORDS = 60
 TOP_K = 5  # number of chunks fed to the LLM per question
 
 # --- LLM (Groq free tier) ---
-GROQ_MODEL = "llama-3.3-70b-versatile"
+#GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 LLM_TEMPERATURE = 0.3
 LLM_TIMEOUT_SECONDS = 30
